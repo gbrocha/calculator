@@ -1,0 +1,6 @@
+.root {
+  @apply bg-gray-800;
+  @apply rounded-lg;
+  width: 340px;
+  height: 400px;
+}
