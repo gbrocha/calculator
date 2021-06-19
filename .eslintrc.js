@@ -10,9 +10,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'prettier',
-    'prettier/standard',
-    'prettier/@typescript-eslint',
-    'prettier/react',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {

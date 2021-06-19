@@ -1,4 +1,6 @@
-function App() {
+import { FunctionComponent } from 'react'
+
+const App: FunctionComponent = () => {
   return <h1>Hello</h1>
 }
 
