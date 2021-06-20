@@ -1,6 +1,18 @@
 .root {
-  @apply bg-gray-800;
-  @apply rounded-lg;
+  @apply bg-gray-800 overflow-hidden;
+  @apply rounded-lg flex flex-col;
   width: 340px;
   height: 400px;
+}
+
+.display {
+  @apply h-1/6;
+}
+
+.keyboard {
+  @apply flex flex-col flex-grow;
+}
+
+.row {
+  @apply flex flex-1 items-stretch;
 }
